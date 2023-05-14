@@ -153,7 +153,7 @@ export default class TaskAllocationPage extends Component{
                             <td><input type="number"  required value={this.state.taskNo} onChange = {this.onChangetaskNo} /></td>
                         </tr>
                         <tr>
-                            <td>Staff Id *</td>
+                            <td>Staff ID *</td>
                         </tr>
                         <tr>
                             <td>
