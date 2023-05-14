@@ -91,7 +91,7 @@ export default class ManageAttendancePage extends Component {
         return (
             <div>
                 <div className="header3">
-                    <p>Manage Attendance Page</p>
+                    <p>Admin Attendance Page</p>
                 </div>
           
             <div className='ManageAttendancePage'>
