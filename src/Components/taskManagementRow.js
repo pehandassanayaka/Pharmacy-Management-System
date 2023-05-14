@@ -51,9 +51,9 @@ class task extends Component {
                 <td>
                     <button onClick={this.approve} className="complete">Complete</button> 
                       &nbsp;
-                    <button className='complete'><Link to={"/EditTask/"+this.props.obj._id} className="completed">Update</Link></button> 
+                    <button className='update'><Link to={"/EditTask/"+this.props.obj._id} className="completed">Update</Link></button> 
                    
-                    <button onClick={this.delete} className="complete">Delete</button> 
+                    <button onClick={this.delete} className="delete">Delete</button> 
                </td>  
            </tr>
         );
