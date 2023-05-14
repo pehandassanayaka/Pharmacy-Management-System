@@ -8,9 +8,7 @@ const mongoose = require('mongoose');
 const config = require('./DB.js');
 
 // const studentRoutes = require('./student.route');
-const inventoryRoutes = require('./inventoy.route.js');
 const attendanceRoutes = require('./attendance.route.js');
-const paymentRoute = require('./payment.route.js');
 
 mongoose.Promise = global.Promise;
 mongoose.connect(config.DB, {useNewUrlParser: true}).then(
@@ -22,9 +20,7 @@ app.use(cors());
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(bodyparser.json());
 
-app.use('/PharmacyInventory',inventoryRoutes);
 app.use('/attendance',attendanceRoutes);
-app.use('/payment',paymentRoute);
 
 
 app.listen(PORT, function(){
