@@ -1,0 +1,55 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inner-menu {
+    margin-top: 240px;
+}
+
+.inner-menu a {
+    color: rgb(0, 0, 0);
+}
+
+.sidebar .inner-menu a:hover:not(.active) {
+    background-color: #bb8f7b;
+    color: rgb(0, 0, 0);
+}
+   
+  
+.sidebar a:hover:not(.active) {
+    background-color: #bb8f7b;
+    color: white;
+}
+
+.profile-top {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-top .col-1 {
+    width: 80%;
+}
+
+.access {
+    margin-top: 200px;
+    justify-content: space-around;
+    display: table;
+    margin: 0 auto;
+}

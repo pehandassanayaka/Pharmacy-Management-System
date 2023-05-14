@@ -1,0 +1,156 @@
+.header1{
+    position: relative;  
+    background-color: #0C8CE9;
+    bottom: 1.2rem;
+
+}
+.header1 P{
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 0.5rem;
+}
+.AddProductForm {
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    padding-bottom: 15rem;
+  }
+  
+  .AddProductForm .right-side {
+  
+      width: 100%;
+  }
+  
+  .AddProductForm .right-side h2 {
+
+        margin-left: 25rem;
+        margin-top: 2rem;
+  }
+  
+  .AddProductForm .right-side .table{
+      margin-left: 10rem;
+      width: 75%;
+      font-size: 1rem;
+      margin-top: 5rem;
+  }
+
+  .AddProductForm .right-side .table tr{
+      padding: 5rem;
+  }
+
+  .AddProductForm .right-side .table tr:nth-child(2) td:nth-child(1) select{
+      outline-style: none;
+      width: 18rem;
+      height: 2rem;
+      padding: 5px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      margin-top: 0.25rem;
+      padding-left: 0.5rem;
+      border-width: 0.1rem;
+  }
+  .AddProductForm .right-side .table tr:nth-child(2) td:nth-child(1) select:hover{
+     
+    border-color: #0C8CE9;
+  }
+
+  
+  .AddProductForm .right-side .table tr:nth-child(2) td:nth-child(2) input{
+      outline-style: none;
+      width: 17rem;
+      height: 1.1rem;
+      padding: 5px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      padding-left: 0.5rem;
+      margin-top: 0.25rem;
+      border-width: 0.1rem;
+  }
+
+  .AddProductForm .right-side .table tr:nth-child(2) td:nth-child(2) input:hover{
+    border-color: #0C8CE9;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(3) td{
+    padding-top:0.25rem;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(4) td input[type=text]{ 
+      width: 17rem;
+      height: 1.1rem;
+      padding: 5px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      margin-top: 0.25rem;
+      outline-style: none;
+      border-width: 0.1rem;
+  }
+  .AddProductForm .right-side .table tr:nth-child(4) td input[type=text]:hover{ 
+
+    border-color: #0C8CE9;
+  }
+
+  .AddProductForm .right-side .table tr:nth-child(5) td{
+      padding-top:0.25rem;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(6) td input[type=number]{
+      outline-style: none;
+      width: 17rem;
+      height: 1.1rem;
+      padding: 5px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      padding-left: 0.5rem;
+      margin-top: 0.25rem;
+      border-width: 0.1rem;
+  }
+
+  .AddProductForm .right-side .table tr:nth-child(6) td input[type=number]:hover{
+    border-color: #0C8CE9;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(7) td{
+      padding-top:0.25rem;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(8) td input[type=text]{
+      width: 25rem;
+      padding: 5px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      margin-top: 0.25rem;
+      padding-left: 0.5rem;
+      height: 1.1rem;
+      outline-style: none;
+      border-width: 0.1rem;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(8) td input[type=text]:hover{
+    border-color: #0C8CE9;
+  }
+
+
+  .AddProductForm .right-side .table tr:nth-child(9) td button{
+      width: 6rem;
+      height: 2.1rem;
+      padding: 2.5px;
+      font-size: 0.85rem;
+      margin-top: 2rem;
+      border: none;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      background-color:#0C8CE9;
+  }
+  
+  .AddProductForm .right-side .table tr:nth-child(9) td button:hover{
+  
+      background-color:#0a73be ;
+  }
+  
+  

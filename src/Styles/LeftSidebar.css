@@ -1,0 +1,45 @@
+.left-sidebar {
+	width: 18%;
+	background-color: #ffffff;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0px #cccccc;
+	position: relative;
+	height: auto;
+    margin-top: 2%;
+
+	
+
+	
+    
+}
+
+.left-sidebar .header-logo {
+	width: 75%;
+	margin-left: 15%;
+
+	
+
+
+}
+
+.left-sidebar .component-name {
+
+    padding: 5% 20%;	
+    color: #000000;
+    width: 60%;
+
+	
+}
+
+/*.left-sidebar .component-name:nth-child(2n-1) {
+    background-color: #700e0e;
+}*/
+
+.left-sidebar .component-name .text a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+	cursor: pointer;
+}

@@ -1,0 +1,136 @@
+.rooot {
+
+    position: relative;
+}
+
+.header1{
+    position: relative;  
+    background-color: #0C8CE9;
+    bottom: 1.2rem;
+
+}
+.header1 P{
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.MarkAttendancePage{
+    width: 100%;
+    display: flex;
+}
+
+.MarkAttendancePage .right-side {
+     width: 100%;
+}
+
+.MarkAttendancePage .right-side h2 {
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.MarkAttendancePage .right-side p{
+    margin-left: 30rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.MarkAttendancePage .right-side .table1 {
+    width: 50%;
+    margin-left: 17rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 0px 1px #888888;
+ 
+}
+
+ .MarkAttendancePage .right-side .table1 tr:nth-child(1) td{
+    padding-left: 5rem;
+    padding-top: 2rem;
+ }
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(2) td input{
+    width: 22rem;
+    height: 1.35rem;
+    padding: 3px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 5rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    outline-style: none;
+    border-width: 0.1rem;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(2) td input:hover{
+    border-color: #0C8CE9;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(3) td{
+    padding-left: 5rem;
+    padding-top: 0.5rem;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(4) td input{
+    width: 22rem;
+    height: 1.35rem;
+    padding: 3px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 5rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    outline-style: none;
+    border-width: 0.1rem;
+    
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(4) td input:hover{
+    border-color: #0C8CE9;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(5) td{
+    padding-left: 5rem;
+    padding-top: 0.5rem;
+}
+
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(6) td input{
+    width: 22rem;
+    height: 1.35rem;
+    padding: 3px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 5rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    outline-style: none;
+    border-width: 0.1rem;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(6) td input:hover{
+    border-color: #0C8CE9;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(7) td button{
+    width: 8rem;
+    height: 2.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color:#0C8CE9;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 13rem;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+.MarkAttendancePage .right-side .table1 tr:nth-child(7) td button:hover{
+    background-color:#0a73be ;
+}

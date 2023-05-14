@@ -1,0 +1,269 @@
+.header2{
+    position: relative;  
+    background-color: #0C8CE9;
+    bottom: 1.2rem;
+
+}
+.header2 P{
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+
+
+.ProductHomePage {
+	width: 100%;
+	display: flex;
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    padding-bottom: 15rem;
+}
+
+.ProductHomePage .right-side {
+	/* background-color: black; */
+	width: 100%;
+  
+  
+}
+
+.ProductHomePage .right-side .checkcart{
+  
+    margin-top: 0.5rem;
+    margin-left: 60rem;
+    background-color: #ffffff;
+    border: none;
+
+}
+
+
+.ProductHomePage .right-side .checkcart .red-color{
+    color:rgb(253, 73, 73);
+}
+
+
+.ProductHomePage .right-side .checkcart a{
+   font-size: 2.5rem;
+
+}
+
+.ProductHomePage .right-side .checkcart a  .fa-shopping-cart:hover{
+
+     color:red;
+ 
+}
+
+
+.ProductHomePage .right-side h2 {
+	margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.ProductHomePage .right-side .table1 {
+	width: 90%;
+	margin-left: 5rem;
+	margin-top: 4rem;
+   
+  
+}
+
+.ProductHomePage .right-side .table1 tr td p {
+	font-size: 1rem;
+	font-weight: 450;
+	color: black;
+}
+
+.ProductHomePage .right-side .table1 tr td input[type="text"] {
+    font-size: 0.9rem;
+    border-radius: 0.75rem;
+    width: 15rem;
+    height: 1.5rem;
+    padding:0.2rem;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    outline-style: none;
+    border-width: 0.1rem;
+
+}
+.ProductHomePage .right-side .table1 tr td input[type="text"]:hover {
+
+    border-color: #0C8CE9;
+}
+
+
+.ProductHomePage .right-side .table1 tr td:nth-child(3){
+
+    width:20%;
+}
+.ProductHomePage .right-side .table1 tr td button {
+
+    width: 5rem;
+    height: 1.9rem;
+    font-size: 0.95rem;
+    color: #ffffff;
+    background-color:#0C8CE9;
+    border: none;
+    border-radius: 0.3rem;
+
+}
+
+.ProductHomePage .right-side .table1 tr td button:hover {
+
+    background-color:#0a73be ;
+}
+
+.ProductHomePage .right-side .table1 tr td .search .link2 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ProductHomePage .right-side .table1 tr td select {
+    width: 16rem;
+    height: 2rem;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    padding-left: 0.5rem;
+    outline-style: none;
+}
+
+.ProductHomePage .right-side .table1 tr td select:hover {
+    border-color: #0C8CE9;
+}
+.ProductHomePage .right-side .list {
+    margin-left: 30rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.ProductHomePage .right-side .table2 {
+    margin-left: 2rem;
+    width: 95%;
+    font-size: 0.93rem;
+    margin-top: 3rem;
+    border-collapse: collapse;
+}
+
+
+
+.ProductHomePage .right-side .table2 tr th{
+    background-color:#90d1ff;
+    padding: 0.5rem;
+    text-align: justify;
+	border-bottom: 1px solid #bebdbd;
+    height: 28px;
+ 
+    
+   
+}
+
+.ProductHomePage .right-side .table2 tr td{
+
+	
+    background-color: #fafafa;
+    padding: 0.5rem;
+	border-bottom: 1px solid #bebdbd;
+    text-align: justify;
+    border-width: 0.1rem;
+}
+.ProductHomePage .right-side .table2 tr th:nth-child(1) {
+    padding-left: 2rem;
+}
+
+
+.ProductHomePage .right-side .table2 tr td:nth-child(1) {
+    width: 8%;
+    padding-left: 2rem;
+ } 
+
+ .ProductHomePage .right-side .table2 tr td:nth-child(2){
+    width: 6%;
+    padding-left: 0.5rem;   
+ } 
+
+ .ProductHomePage .right-side .table2 tr th:nth-child(2) {
+    padding-left: 0.5rem;
+
+ }
+
+
+ .ProductHomePage .right-side .table2 tr td:nth-child(3){
+    width: 11%;
+    padding-left: 2rem;
+ }
+ 
+ .ProductHomePage .right-side .table2 tr th:nth-child(3) {
+    padding-left: 2rem;
+
+ }
+
+ .ProductHomePage .right-side .table2 tr td:nth-child(4){
+    width: 5%;
+ } 
+
+ .ProductHomePage .right-side .table2 tr td:nth-child(5){
+    width: 0.001%;
+    padding-left: 1rem;
+ } 
+
+ .ProductHomePage .right-side .table2 tr th:nth-child(5) {
+    padding-left: 1rem;
+
+ }
+
+ .ProductHomePage .right-side .table2 tr td:nth-child(6){
+    width: 18%;
+    padding-left: 5rem;
+ } 
+
+ .ProductHomePage .right-side .table2 tr th:nth-child(6) {
+    padding-left: 5rem;
+
+ }
+ .ProductHomePage .right-side .table2 tr td:nth-child(7){
+    width: 5%;
+    padding-left: 2rem;
+ } 
+
+ .ProductHomePage .right-side .table2 tr th:nth-child(7) {
+    padding-left: 2rem;
+
+ }
+
+
+ 
+
+
+.ProductHomePage .right-side .table2 tr td button {
+    width: 5rem;
+    height: 1.9rem;
+    border: none;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.btn1 .cart{
+    text-decoration: none;
+    color: #ffffff;
+   
+    
+}
+
+.ProductHomePage .right-side .table2 tr td button {
+    background-color: #0C8CE9;
+}
+
+.ProductHomePage .right-side .table2 tr td button:hover {
+    background-color: #0a73be;
+}
+
+
+
+
+
