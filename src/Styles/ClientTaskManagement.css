@@ -1,3 +1,19 @@
+.ClientTaskManagement{
+	position:relative;
+	background-image: url("https://img.freepik.com/premium-photo/background-image-box-medicines-shelf-pharmacy_160672-10816.jpg?size=626&ext=jpg&ga=GA1.1.2114567174.1683975581&semt=ais");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgba(212, 207, 207, 0.171);
+	background-blend-mode:luminosity;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 15rem;
+	min-height: 100vh;
+	top: -2.37rem;
+  }
+
+
 .header4{
     position: relative;  
     background-color: #0C8CE9;
@@ -29,7 +45,7 @@
 }
 
 .ClientTaskManagement .right-side h2 {
-    margin-left: 28rem;
+    margin-left: 30.5rem;
     margin-top: 2rem;
 }
 
@@ -40,28 +56,27 @@
     border-collapse: separate;
     cursor: none;
     font-weight: 500;
- 
   
 }
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(1){
     font-size: 1rem;
     border-style: solid;
-	box-shadow: 1px 1px 0px 1px #888888;
+	box-shadow: 2px 2px 0px 2px #eed70a;
     border-width: 0.1rem;
     border-radius: 0.75rem;
     width: 40%;
-    
+    background-color: aliceblue;
   
 }
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(1) p:nth-child(1){
-    padding-left: 6rem;
+    padding-left: 7.5rem;
 }
 
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(1) p:nth-child(2){
-    padding-left: 10rem;
+    padding-left: 12.5rem;
 }
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(2){
@@ -71,18 +86,18 @@
     border-width: 0.1rem;
     width: 40%;
     border-radius: 0.75rem;
-    box-shadow: 1px 1px 0px 1px #888888;
-   
+    box-shadow: 2px 2px 0px 2px #61f31e;
+    background-color: aliceblue;
  
 }
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(2) p:nth-child(1){
-    padding-left: 6.5rem;
+    padding-left: 8.5rem;
     
 }
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(2) p:nth-child(2){
-    padding-left: 9.5rem;
+    padding-left: 12rem;
 }
 
 .ClientTaskManagement .right-side .table1 tr td:nth-child(3){
@@ -227,7 +242,7 @@
 
 .complete {
 
-    background-color:#0C8CE9;
+    background-color:#33c407;
     color: #ffffff;
     text-decoration: none;
     width: 5rem;
@@ -238,7 +253,7 @@
 
 .complete:hover {
     
-    background-color:#0a73be ;
+    background-color:#28a702 ;
 
 }
 
