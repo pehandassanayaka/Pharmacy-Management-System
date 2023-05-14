@@ -156,7 +156,7 @@ export default class MarkAttendancePage extends Component{
                     <p>Mark Attendance</p>
                     <table className="table1">
                         <tr>
-                            <td>Staff Id</td>
+                            <td>Staff ID</td>
                         </tr>
                         <tr>
                             <td><input type="text" required value={this.state.staffid} onChange = {this.onChangestaffid} /></td>
