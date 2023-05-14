@@ -21,6 +21,7 @@
     min-height: 100vh;
     height:100% ;
     padding-bottom: 15rem;
+    
 }
 
 .ManageAttendancePage .right-side {
@@ -37,9 +38,7 @@
     margin-left: 7rem;    
     border-spacing: 4rem;
     border-collapse: separate;
-    cursor: none;
     font-weight: 500;
-  
 }
 
 
@@ -47,8 +46,9 @@
 .ManageAttendancePage .right-side .table1 tr td:nth-child(1){
    
     font-size: 1rem;
-    border-style: solid;
-	box-shadow: 1px 1px 0px 1px #888888;
+    border-style: double;
+	box-shadow: 1px 1px 0px 1px #61f31e; 
+    background-color:aliceblue;
     border-width: 0.1rem;
     border-radius: 0.75rem;
     width: 40%;
@@ -68,11 +68,12 @@
 .ManageAttendancePage .right-side .table1 tr td:nth-child(2){
    
     font-size: 1rem;
-    border-style: solid;
+    border-style: double;
     border-width: 0.1rem;
     width: 40%;
     border-radius: 0.75rem;
-    box-shadow: 1px 1px 0px 1px #888888;
+    box-shadow: 1px 1px 0px 1px #fa1d00;
+    background-color:aliceblue;
 }
 
 .ManageAttendancePage .right-side .table1 tr td:nth-child(2) p:nth-child(1){
@@ -245,4 +246,17 @@
 
     background-color:#0a73be ;
 }
- 
+.ManageAttendancePage{
+  position: relative;
+  background-image: url("https://img.freepik.com/premium-photo/background-image-box-medicines-shelf-pharmacy_160672-10816.jpg?size=626&ext=jpg&ga=GA1.1.2114567174.1683975581&semt=ais");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(212, 207, 207, 0.171);
+  background-blend-mode:luminosity;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 15rem;
+  min-height: 100vh;
+  top: -2.37rem;
+}
