@@ -1,3 +1,18 @@
+.ClientAttendance{
+    position: relative;
+    background-image: url("https://img.freepik.com/premium-photo/background-image-box-medicines-shelf-pharmacy_160672-10816.jpg?size=626&ext=jpg&ga=GA1.1.2114567174.1683975581&semt=ais");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(212, 207, 207, 0.171);
+    background-blend-mode:luminosity;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10rem;
+    min-height: 100vh;
+    top: -2.37rem;
+  }
+
 .header3{
     position: relative;  
     background-color: #0C8CE9;
@@ -30,8 +45,8 @@
 }
 
 .ClientAttendance .right-side h2 {
-    margin-left: 22rem;
-    margin-top: 1rem;
+    margin-left: 28rem;
+    margin-top: 3rem;
 }
 
 .ClientAttendance .right-side .table1{
@@ -41,6 +56,7 @@
     border-collapse: separate;
     cursor: none;
     font-weight: 500;
+    margin-top: -0.5rem;
 }
 
 
@@ -49,20 +65,21 @@
    
     font-size: 1rem;
     border-style: solid;
-	box-shadow: 1px 1px 0px 1px #888888;
+	box-shadow: 1px 1px 0px 1px #61f31e; 
     border-width: 0.1rem;
     border-radius: 0.75rem;
     width: 40%;
+    background-color: aliceblue;
   
 }
 
 
 .ClientAttendance .right-side .table1 tr td:nth-child(1) p:nth-child(1){
-    padding-left: 6rem;
+    padding-left: 8rem;
 }
 
 .ClientAttendance .right-side .table1 tr td:nth-child(1) p:nth-child(2){
-    padding-left: 10rem;
+    padding-left: 12rem;
 }
 
 .ClientAttendance .right-side .table1 tr td:nth-child(2){
@@ -72,15 +89,16 @@
     border-width: 0.1rem;
     width: 40%;
     border-radius: 0.75rem;
-    box-shadow: 1px 1px 0px 1px #888888;
+    box-shadow: 1px 1px 0px 1px #fa1d00;
+    background-color: aliceblue;
 }
 
 .ClientAttendance .right-side .table1 tr td:nth-child(2) p:nth-child(1){
-    padding-left: 8.5rem;
+    padding-left: 11rem;
 }
 
 .ClientAttendance .right-side .table1 tr td:nth-child(2) p:nth-child(2){
-    padding-left: 10rem;
+    padding-left: 12.5rem;
 }
 
 .ClientAttendance .right-side .table2{
@@ -90,6 +108,7 @@
 .ClientAttendance .right-side .table2 tr td:nth-child(1){
     font-size: 1rem;
     padding-right: 5rem;
+    font-weight: 500;
 }
     
 .ClientAttendance .right-side .table2 tr td input{
@@ -104,8 +123,8 @@
 
 .ClientAttendance .right-side .table2 tr td button{
 
-    width: 7rem;
-    height: 2rem;
+    width: 7.4rem;
+    height: 2.2rem;
     font-size: 1rem;
     color: #ffffff;
     background-color:#0C8CE9;
@@ -125,9 +144,9 @@
 
 .ClientAttendance .right-side .ptag{
     font-size: 1.2rem;
-    margin-left: 27rem;
-    margin-top: 3rem;
-   
+    margin-left: 35rem;
+    margin-top: 4rem;
+    font-weight: 600;
 }
 
 .ClientAttendance .right-side .table3 {
@@ -152,18 +171,17 @@
 
 .ClientAttendance .right-side .table3 tr th{
     background-color:#90d1ff;
-    padding-left: 6rem;
+    padding-left: 13rem;
     text-align: justify;
 	border-bottom: 1px solid #bebdbd;
-    height: 40px;
-   
+    height: 40px; 
 
 }
 
 .ClientAttendance .right-side .table3 tr td{
 
     background-color: #fafafa;
-    padding-left: 6rem;
+    padding-left: 12.5rem;
 	border-bottom: 1px solid #bebdbd;
     text-align: justify;
     border-width: 0.1rem;

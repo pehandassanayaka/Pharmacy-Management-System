@@ -33,12 +33,6 @@ class ACTableRow extends Component {
                    {this.props.obj.status}
                </td>
               
-              
-                <td>
-                   {/* <Link to={"/editproductform/"+this.props.obj._id} className="btn btn-success">edit</Link>
-                      &nbsp; */}
-                    {/* <button onClick={this.approve} className="delete">Complete</button>  */}
-               </td>  
            </tr>
         );
     }
