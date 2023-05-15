@@ -62,13 +62,13 @@ export default class ManageAttendancePage extends Component {
         const size = "A4"; // Use A1, A2, A3 or A4
         const orientation = "portrait"; // portrait or landscape
 
-        const marginLeft = 40;
+        const marginLeft = 225;
         const doc = new jsPDF(orientation, unit, size);
 
         doc.setFontSize(15);
 
-        const title = "attendance Report";
-        const headers = [["staffid", "name", "status", "day"]];
+        const title = "Attendance Report";
+        const headers = [["Staff ID", "Name", "Status", "Day"]];
 
         const data = this.state.attendance.map(elt => [elt.staffid, elt.name, elt.status, elt.day]);
 

@@ -35,7 +35,7 @@ function Footer() {
         </ul>
       </div>
       <div className="middle-column">
-        <p>ITP 2023</p>
+        <p>Ajith Pharmacy</p>
       </div>
       <div className="right-column">
         <div className="sub-column">

@@ -55,11 +55,11 @@ export default class taskHomePage extends Component {
 		const unit = "pt";
 		const size = "A4"; // Use A1, A2, A3 or A4
 		const orientation = "portrait"; // portrait or landscape
-		const marginLeft = 40;
+		const marginLeft = 225;
 		const doc = new jsPDF(orientation, unit, size);
 		doc.setFontSize(15);
-		const title = "task Report";
-		const headers = [["taskNo", "staffid", "description", "status"]];
+		const title = "Task Report";
+		const headers = [["Task No", "Staff ID", "Description", "Status"]];
 		const data = this.state.task.map((elt) => [
 			elt.taskNo,
 			elt.staffid,

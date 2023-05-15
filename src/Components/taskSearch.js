@@ -99,16 +99,12 @@ export default class ProductHomePage extends Component {
 						<table className='table1'>
 							<tr>
 								<td>
-									<p>Today Allocated Task</p>
-									<p>20</p>
-								</td>
-								<td>
 									<p>Completed Task</p>
 									<p>2</p>
 								</td>
 								<td>
 									<p>Remaining Task</p>
-									<p>18</p>
+									<p>5</p>
 								</td>
 							</tr>
 						
